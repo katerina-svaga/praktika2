@@ -13,7 +13,7 @@ html, body {
   overflow: auto;
 }
 #main {
- width: 200%;
+ width: 100%;
  padding: 0;
 }
 .content-asset p {
@@ -59,6 +59,7 @@ html, body {
  text-transform: uppercase;
  color: #800000;
 }
+
 #flat p {
  font-family: 'Source Sans Pro', sans-serif;
  font-weight: 400;
@@ -75,6 +76,7 @@ html, body {
  padding-left: 3px;
  font-family: 'Source Sans Pro', sans-serif;
 }
+
 .bukva1 {
   color: #8B0000;
   font-family: 'Source Sans Pro', sans-serif;
@@ -87,6 +89,7 @@ html, body {
   color: #8B0000;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 #flat .title {
  background: #CD5C5C;
  padding: 60px;
@@ -124,6 +127,7 @@ html, body {
  margin: 0 auto;
  text-align: justify;
 }
+
 #flat .block-gray {
  background: #f2f2f2;
  padding: 6px;
