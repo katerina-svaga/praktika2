@@ -4,7 +4,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
-  background-color: #FFFFE0;
+  background-color: #FFFFFF;
 }
 .box {
     width: 80%;
@@ -76,19 +76,19 @@ html, body {
  font-family: 'Source Sans Pro', sans-serif;
 }
 .bukva1 {
-  color: #FF7F50;
+  color: #8B0000;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .bukva2 {
-  color: #FF4500;
+  color: #8B0000;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .bukva3 {
-  color: #FFA500;
+  color: #8B0000;
   font-family: 'Source Sans Pro', sans-serif;
 }
 #flat .title {
- background: #FF7F50;
+ background: #CD5C5C;
  padding: 60px;
  margin: 0 auto;
  text-align: center; 
@@ -98,7 +98,7 @@ html, body {
  letter-spacing: 8px;
 }
 #flat .title {
- background: #FF4500  ;
+ background:  #CD5C5C ;
  padding: 60px;
  margin: 0 auto;
  text-align: center;
@@ -108,7 +108,7 @@ html, body {
  letter-spacing: 8px;
 }
 #flat .title {
- background: #FF4500  ;
+ background: #CD5C5C  ;
  padding: 60px;
  margin: 0 auto;
  text-align: center;
@@ -118,7 +118,7 @@ html, body {
  letter-spacing: 8px;
 }
 #flat .block {
- background: #FFFFE0;
+ background: #808080;
  padding: 6px;
  width: 820px;
  margin: 0 auto;
@@ -143,7 +143,7 @@ html, body {
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url("https://raw.githubusercontent.com/Lizaveta-sketch/cvc/refs/heads/main/0d3bed164370229d36984c1d9093b516.jpg");
+ background-image: url("https://raw.githubusercontent.com/katerina-svaga/praktika2/refs/heads/main/photo_2026-02-12_16-07-05.jpg");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -157,7 +157,7 @@ html, body {
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url("https://raw.githubusercontent.com/Lizaveta-sketch/cvc/refs/heads/main/e2ead2d0bb49e10b738581fc3b1b7e93.jpg");
+ background-image: url("https://raw.githubusercontent.com/katerina-svaga/praktika2/refs/heads/main/photo_2026-02-12_16-07-33.jpg");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -171,7 +171,7 @@ html, body {
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url("https://raw.githubusercontent.com/Lizaveta-sketch/cvc/refs/heads/main/close-up-potted-plant_1048944-21850655.jpg");
+ background-image: url("https://raw.githubusercontent.com/katerina-svaga/praktika2/refs/heads/main/photo_2026-02-12_16-07-27.jpg");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -180,12 +180,44 @@ html, body {
  background-position: center center;
 }
 #flat .line-break1 {
- background: linear-gradient(60deg, #FF7F50, #FF4500, #FFA500);
+ background: linear-gradient(60deg, #696969, #D2691E, A21F1F);
  width: 100%;
  margin: 0 auto;
 }
 #flat .line-break2 {
- background: linear-gradient(60deg, #FF4500, #FFA500, #FF7F50);
+ background: linear-gradient(60deg, #696969, #D2691E, A21F1F);
  width: 100%;
  margin: 0 auto;
 }#flat .line-break3 {
+background: linear-gradient(60deg, #696969, #D2691E, A21F1F);
+ width: 100%;
+ margin: 0 auto;
+}
+@media screen and (max-width: 959px) and (min-width: 768px) {
+ #flat .block {
+  padding: 40px;
+  width: 620px;
+ }
+}
+@media screen and (max-width: 767px) {
+ #flat .block {
+  padding: 30px;
+  width: 420px;
+ }
+ #flat h2 {
+  font-size: 30px;
+ }
+ #flat .block {
+  padding: 30px;
+ }
+ #flat .parallax-one, #flat .parallax-two, #flat .parallax-three {
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+}
+@media screen and (max-width: 479px) {
+ #flat .block {
+  padding: 30px 15px;
+  width: 290px;
+ }
+}
